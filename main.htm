@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT with Sachintha Madushan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/15147178bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header_text">
+            <p>ICT TUTOR</p>
+            <h1><span>Sachintha Madushan</span></h1>
+            <p><span>Bsc(Hons) Data Science</span></p>
+        </div>
+    </div>
+</div>  
+<!-----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>iformaation about me adfa sf sdfddfgf ghghgh fftf yftyt drtrdrtdrg tjyjdfty drseawaf sthtrf</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Basic</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Institute</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>name</span><br>Sachintha Madushan</li>
+                        <li><span>School</span><br>Science College</li>
+                        <li><span>Whatsapp</span><br>0779756843</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Advance Level</span><br>Commerce Stream with ICT</li>
+                        <li><span>Computer Diploma</span><br>Graphic and Accounting</li>
+                        <li><span>Degree</span><br>Data Science(undergraduate)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Nanasro</span><br>Attidiya</li>
+                        <li><span>Sipseth</span><br>Dehiwala</li>
+                        <li><span>Group Classes</span><br>Kawdana, Attidiya</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------Srevices----------->
+<div id="services">
+    <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>Service 1</h2>
+                    <p>service description</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>Service 2</h2>
+                    <p>service description</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>Service 3</h2>
+                    <p>service description</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+    </div>
+
+</div>
+<!---------------portofolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Exam & Resualts</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkRLek2xDu5KU8exJ4B1lFXb6jc7cMfjI7_w&usqp=CAU">
+                <div class="layer">
+                    <h3><b>Exam Resualt of Lessons</b></h3>
+                    <p>In our ICT class, an examination is conducted for each unit of study and the marks obtained by the children are shown here</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="data:image/jpeg;base64,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">
+                <div class="layer">
+                    <h3>Exam Resualts of Term Test</h3>
+                    <p>Marks of term test conducted by our ICT class and conducted in school</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkR8caRNN-eJYGY_xeJn-ITuue2hngfzIOA&usqp=CAU">
+                <div class="layer">
+                    <h3>Ordinary Level Exam Marks</h3>
+                    <p>Marks of our ICT class students who appeared for the Ordinary Level Examination</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sachinthamadushan07@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+94788665256</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/SachinthaMadushan01"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="timetable.pdf" download class="btn btn2">Download Time Table</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> 2022 ICT for Sachintha Madushan. All Right Reserved. </p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby-F0fAIiJ2CcdvMKPqAv2UTqIOQZmJ1TYs66-Kb_LQnROZQs-sei-btbn28kltctQa/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
